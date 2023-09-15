@@ -1,0 +1,19 @@
+{
+  "name": "CAKE",
+  "version": "0.0.1",
+  "description": "Comprehensive A.I Kubernetes Engineering",
+  "main": "index.js",
+  "authors": {
+    "name": "karlo",
+    "email": "leekh7411@naver.com"
+  },
+  "repository": "cake/CAKE",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
