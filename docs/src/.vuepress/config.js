@@ -2,6 +2,7 @@ const { description } = require('../../package')
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ? '/cake/' : '/',
+  base: '/cake/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
