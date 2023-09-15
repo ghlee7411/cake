@@ -13,6 +13,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: ghlee7411/cake
         TARGET_BRANCH: gh-pages
-        BUILD_SCRIPT: cd docs && yarn && yarn build
-        BUILD_DIR: src/.vuepress/dist
-        CNAME: https://www.xxx.com
+        BUILD_SCRIPT: yarn && yarn build
+        BUILD_DIR: docs/src/.vuepress/dist/
