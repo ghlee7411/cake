@@ -9,8 +9,8 @@
   },
   "repository": "cake/CAKE",
   "scripts": {
-    "dev": "vuepress dev docs/src",
-    "build": "vuepress build docs/src"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {
