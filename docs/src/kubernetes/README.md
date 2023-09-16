@@ -1,4 +1,4 @@
-# Kubernetes 소개
+# 소개
 
 Kubernetes는 컨테이너화된 애플리케이션을 자동으로 배포, 스케일링 및 관리해주는 오픈 소스 플랫폼입니다. 2014년에 Google에서 최초로 개발되었으며, 현재는 Cloud Native Computing Foundation에서 관리되고 있습니다.
 

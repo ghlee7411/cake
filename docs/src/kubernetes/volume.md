@@ -1,4 +1,4 @@
-# Kubernetes Volume
+# Volume
 
 Kubernetes Volume은 파드 내의 컨테이너들이 데이터를 공유하고 저장할 수 있도록 하는 객체입니다. Volume은 컨테이너의 파일 시스템에 마운트되며, 데이터는 컨테이너가 삭제되더라도 Volume에 유지됩니다. 이 문서에서는 Volume의 개념, 종류, 사용 방법에 대해 자세히 설명합니다.
 

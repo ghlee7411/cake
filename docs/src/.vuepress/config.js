@@ -49,7 +49,9 @@ module.exports = {
             '',
             'architecture',
             'pod',
-            'volume'
+            'pod_spec',
+            'volume',
+            'networking'
           ]
         }
       ],
