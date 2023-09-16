@@ -3,7 +3,7 @@ home: true
 # heroImage: https://avatars.githubusercontent.com/u/13629408?s=100&v=4
 tagline: Comprehensive A.I Kubernetes Engineering
 actionText: Quick Start →
-actionLink: /guide/
+actionLink: /kubernetes/
 features:
 - title: Comprehensive
   details: 이 단어는 "포괄적인"이라는 뜻이며, 특정 프로젝트나 시스템이 많은 기능을 갖추고 있음을 의미할 수 있습니다.

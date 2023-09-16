@@ -36,26 +36,20 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Kubernetes',
+        link: '/kubernetes/',
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/kubernetes/': [
         {
-          title: 'Guide',
-          collapsable: false,
+          title: 'Kubernetes',
+          collapsable: true,
           children: [
             '',
-            'using-vue',
+            'architecture',
+            'pod',
+            'volume'
           ]
         }
       ],
@@ -68,5 +62,6 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    'vuepress-plugin-mermaidjs'
   ]
 }
